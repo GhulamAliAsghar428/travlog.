@@ -1,0 +1,1043 @@
+*\  {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
+@import url('https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold');
+
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    font-family: "circular std bold";
+    font-size: 21px;
+    font-weight: 900px;
+}
+
+.logo p {
+    margin-top: 22px;
+    margin-left: 12px;
+}
+
+
+
+nav {
+    display: flex;
+    width: 450px;
+    margin: 0px 100px;
+}
+
+.selected {
+    margin: 0px 10px;
+    font-family: "circular std bold";
+    font-size: 14px;
+    font-weight: 700px;
+    color: black;
+}
+
+
+.nav-links {
+    margin: 0px 30px;
+    font-family: "circular std bold";
+    font-size: 14px;
+    font-weight: 700px;
+    color: #19182580;
+}
+
+.nav-links :hover {
+    cursor: pointer;
+    color: black;
+}
+
+.login-btn {
+    border: none;
+    background: none;
+    font-family: "circular std bold";
+    font-size: 14px;
+    font-weight: 700px;
+}
+
+.signup-btn {
+    border: none;
+    background-color: #5D50C6;
+    border-radius: 40px;
+    color: white;
+    font-family: "circular std bold";
+    font-size: 14px;
+    font-weight: 700px;
+    padding: 16px 32px;
+}
+
+.hero-section {
+    display: flex;
+    margin-left: 140px;
+}
+
+.hero-sec-left {
+    position: relative;
+    margin-top: 150px;
+}
+
+.orange-shade{
+    position: absolute;
+    bottom: 200px;
+    left: -150px;
+}
+
+.yellow-shade{
+    position: absolute;
+    left: 782px;
+}
+
+.explore-btn {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    color: #F85E9F;
+    font-family: "circular std bold";
+    font-size: 14px;
+    font-weight: 700px;
+    box-shadow: 2px 2px 50px 2px rgb(0, 0, 0, 0.25);
+    margin-bottom: -10px;
+}
+
+.explore-btn img {
+    margin-left: 10px;
+}
+
+.hero-sec-left-des {
+    font-family: "circular std bold";
+    font-size: 69px;
+    font-weight: 700px;
+    line-height: 83px;
+}
+
+.hero-sec-left-des span {
+    color: #F85E9F;
+}
+
+.p-2 {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #19182580;
+    margin-bottom: 70px;
+}
+
+
+.hero-btns {
+    display: flex;
+}
+
+.start-btn {
+    border: none;
+    background-color: #5D50C6;
+    border-radius: 40px;
+    color: white;
+    font-family: "circular std bold";
+    font-size: 14px;
+    font-weight: 700px;
+    padding: 16px 32px;
+}
+
+.watch-btn {
+    display: flex;
+    background: none;
+    border: #EEEEEE solid 1px;
+    width: 150px;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-family: "circular std bold";
+    font-size: 14px;
+    font-weight: 700px;
+}
+
+
+.watch-btn img {
+    margin-top: 14px;
+    margin-right: 5px;
+}
+
+.hero-sec-right {
+    position: relative;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.hero-sec-right-imgs {
+    position: absolute;
+    top: 80px;
+    right: 400px;
+}
+
+.icons-1 {
+    position: relative;
+}
+
+.img-2 {
+    position: absolute;
+    top: 115px;
+    margin-left: 30px;
+}
+
+.img-3 {
+    margin-top: 30px;
+}
+
+.icon-1 {
+    position: absolute;
+    top: -50px;
+    right: -210px;
+}
+
+
+.icon-3 {
+    position: absolute;
+    top: -370px;
+    right: 210px;
+}
+
+.loc-card {
+    position: absolute;
+    background: #EEEEEE;
+    bottom: 150px;
+    left: 500px;
+    display: flex;
+    width: 140px;
+    height: 56px;
+    box-shadow: 2px 2px 50px 2px rgb(0, 0, 0, 0.25);
+    padding-left: 25px;
+    border-radius: 30px;
+}
+
+
+.loc-card p {
+    font-family: "circular std bold";
+    font-size: 14px;
+    font-weight: 700px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.partners {
+    display: flex;
+}
+
+.arrow-img {
+    margin-top: 100px;
+}
+
+.part-logos {
+    margin-top: 220px;
+    margin-left: 80px;
+}
+
+.part-logos img {
+    margin-right: 100px;
+}
+
+.services {
+    display: flex;
+    margin-left: 150px;
+}
+
+.services-des {
+    margin-top: 150px;
+}
+
+.services-des p {
+    font-family: "circular std bold";
+    font-size: 44px;
+    font-weight: 700px;
+}
+
+.services p span {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #F85E9F;
+}
+
+.services-cards {
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+}
+
+.ser-card-1 {
+    margin-top: 180px;
+    margin-right: 10px;
+    height: 460px;
+    width: 350px;
+}
+
+.ser-card-1 img {
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
+.ser-card-1 h1 {
+    font-family: "circular std bold";
+    font-size: 28px;
+    font-weight: 700px;
+}
+
+.ser-card-1 p {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #19182580;
+}
+
+.ser-card-2 {
+    margin-top: 110px;
+    height: 400px;
+    width: 290px;
+    box-shadow: 2px 2px 50px 2px rgb(0, 0, 0, 0.25);
+    padding-top: 80px;
+    padding-left: 60px;
+    border-radius: 30px;
+}
+
+.ser-card-2 img {
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
+.ser-card-2 h1 {
+    font-family: "circular std bold";
+    font-size: 28px;
+    font-weight: 700px;
+    margin-left: 10px;
+}
+
+.ser-card-2 p {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #19182580;
+}
+
+.ser-card-3 {
+    position: absolute;
+    top: 110px;
+    left: 846px;
+    height: 400px;
+    width: 40px;
+    box-shadow: 2px 2px 50px 2px rgb(0, 0, 0, 0.25);
+    padding-top: 80px;
+    padding-left: 6px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.ser-card-3 img {
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
+.ser-card-3 h1 {
+    font-family: "circular std bold";
+    font-size: 28px;
+    font-weight: 700px;
+    margin-left: 10px;
+}
+
+.ser-card-3 p {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #19182580;
+    margin-top: 180px;
+}
+
+.top-destination {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+
+.top-destination-des h1 {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #F85E9F;
+}
+
+.top-destination-des p {
+    font-family: "circular std bold";
+    font-size: 44px;
+    font-weight: 700px;
+}
+
+.dest-btn-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 360px;
+    margin-right: 50px;
+    background: none;
+    border: #19182580 solid 1px;
+}
+
+
+.dest-btn-2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #5D50C6;
+    border: none;
+    margin-top: -50px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+.dest-card-1-des {
+    width: 335px;
+    height: 225px;
+    background: white;
+    margin-top: -5px;
+    padding-left: 15px;
+    box-shadow: 2px 2px 50px 2px rgb(0, 0, 0, 0.25);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.dest-card-1-des strong {
+    display: flex;
+}
+
+.dest-card-1-des strong .p-1 {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+}
+
+.dest-card-1-des strong .p-2 {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #F85E9F;
+    margin-left: 60px;
+}
+
+.dest-card-1-des .country {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+    color: #191825BF;
+}
+
+.dest-card-1-des .rating {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #FF5722;
+}
+
+.dest-card-2-des {
+    width: 335px;
+    height: 225px;
+    background: white;
+    margin-top: -5px;
+    padding-left: 15px;
+    box-shadow: 2px 2px 50px 2px rgb(0, 0, 0, 0.25);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.dest-card-2-des strong {
+    display: flex;
+}
+
+.dest-card-2-des strong .p-1 {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+}
+
+.dest-card-2-des strong .p-2 {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #F85E9F;
+    margin-left: 60px;
+}
+
+.dest-card-2-des .country {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+    color: #191825BF;
+}
+
+.dest-card-2-des .rating {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #FF5722;
+}
+
+.dest-card-3-des {
+    width: 335px;
+    height: 225px;
+    background: white;
+    margin-top: -5px;
+    padding-left: 15px;
+    box-shadow: 2px 2px 50px 2px rgb(0, 0, 0, 0.25);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.dest-card-3-des strong {
+    display: flex;
+}
+
+.dest-card-3-des strong .p-1 {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+}
+
+.dest-card-3-des strong .p-2 {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #F85E9F;
+    margin-left: 60px;
+}
+
+.dest-card-3-des .country {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: -15px;
+    margin-bottom: 40px;
+    color: #191825BF;
+}
+
+.dest-card-3-des .rating {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #FF5722;
+}
+
+.travel-point {
+    display: flex;
+    margin-top: 250px;
+}
+
+.travel-point-left-sec {
+    position: relative;
+}
+
+.travel-point-left-sec .travller {
+    position: absolute;
+    bottom: 27px;
+    right: -50px;
+}
+
+.travel-point-left-sec .circle-1 {
+    position: absolute;
+    top: -110px;
+    right: 70px;
+}
+
+.travel-point-left-sec .circle-1-copy {
+    position: absolute;
+    top: -35px;
+    right: 530px;
+    height: 60px;
+    width: 60px;
+}
+
+.travel-point-left-sec .circle-2 {
+    position: absolute;
+    bottom: 430px;
+    left: 700px;
+}
+
+.travel-point-left-sec .circle-3 {
+    position: absolute;
+    bottom: 150px;
+    left: 580px;
+}
+
+.travel-point-right-sec-des {
+    margin-left: 100px;
+}
+
+.travel-point-right-sec-des h1 {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #F85E9F;
+}
+
+.travel-point-right-sec-des .p-1 {
+    font-family: "circular std bold";
+    font-size: 44px;
+    font-weight: 700px;
+    margin-top: 15px;
+}
+
+.travel-point-right-sec-des .p-2 {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #191825BF;
+}
+
+.travel-point-cards {
+    display: flex;
+}
+
+.travel-point-card-1 {
+    height: 90px;
+    width: 155px;
+    border: #19182580 solid 1px;
+    margin-right: 40px;
+    padding-top: 10px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.travel-point-card-1 p {
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.travel-point-card-1 span {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #FF5722;
+}
+
+.travel-point-card-2 {
+    height: 90px;
+    width: 155px;
+    border: #19182580 solid 1px;
+    margin-right: 40px;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+.travel-point-card-2 p {
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.travel-point-card-2 span {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #FF5722;
+}
+
+.travel-point-card-3 {
+    height: 90px;
+    width: 155px;
+    border: #19182580 solid 1px;
+    margin-right: 40px;
+    padding-top: 10px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.travel-point-card-3 p {
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.travel-point-card-3 span {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #FF5722;
+}
+
+.travel-point-card-4 {
+    height: 90px;
+    width: 155px;
+    border: #19182580 solid 1px;
+    margin-right: 40px;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+.travel-point-card-4 p {
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+.travel-point-card-4 span {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #FF5722;
+}
+
+.key-features {
+    display: flex;
+    margin-left: 150px;
+}
+
+.key-features-left-sec {
+    margin-top: 100px;
+}
+
+.key-features-des h2 {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #F85E9F;
+}
+
+.key-features-des h1 {
+    font-family: "circular std bold";
+    font-size: 44px;
+    font-weight: 700px;
+}
+
+.key-features-des p {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #19182580;
+}
+
+.key-features-cards {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.key-features-card-1 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.key-features-card-1 p {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #19182580;
+    line-height: 35px;
+}
+
+.key-features-card-1 span {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: black;
+}
+
+.key-features-card-2 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.key-features-card-2 p {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #19182580;
+    line-height: 35px;
+}
+
+.key-features-card-2 span {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: black;
+}
+
+.key-features-card-3 {
+    display: flex;
+}
+
+.key-features-card-3 p {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #19182580;
+    line-height: 35px;
+}
+
+.key-features-card-3 span {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: black;
+}
+
+.key-features-right-sec {
+    position: relative;
+    margin-top: 130px;
+}
+
+
+
+.POE {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    display: flex;
+    height: 50px;
+    width: 307px;
+    padding-top: 10px;
+    padding-left: 40px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 2px 2px 50px 2px rgb(0, 0, 0, 0.25);
+}
+
+.POE img {
+    height: 40px;
+    width: 40px;
+}
+
+.POE p {
+    margin-top: 8px;
+    margin-left: 15px;
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+}
+
+.key-features-right-sec .img-1 {
+    margin-left: 350px;
+}
+
+.key-features-right-sec .img-two {
+    position: absolute;
+    top: 120px;
+    right: 200px;
+}
+
+.key-features-right-sec .img-3 {
+    position: absolute;
+    top: 330px;
+    right: 60px;
+}
+
+.testimonial {
+    position: relative;
+    height: 1200px;
+}
+
+.testimonial-des {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+.testimonial .bg-img {
+    width: 1500px;
+}
+
+.testimonial-des p {
+    font-family: "circular std bold";
+    font-size: 44px;
+    font-weight: 700px;
+}
+
+.testimonial-des span {
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #F85E9F;
+}
+
+.testimonial .img-1{
+    position: absolute;
+    top: 560px;
+    right: 560px;
+}
+
+.client-details{
+    margin-top: 50px;
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+}
+
+.client-details span{
+    font-family: "circular std bold";
+    font-size: 28px;
+    font-weight: 700px;
+    color: #FF5722;
+}
+
+.rating-stars{
+    position: absolute;
+    top: 800px;
+    left: 640px;
+}
+
+.rating-stars img{
+    margin-right: 20px;
+}
+
+.dumy-review {
+    position: absolute;
+    bottom: 190px;
+    left: 330px;
+
+}
+
+.dumy-review p{
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 450px;
+    color: #191825BF;
+    line-height: 36px;
+}
+
+.dumy-review img{
+    margin-left: 380px;
+}
+
+.newsletter{
+    width: 1110px;
+    height: 608px;
+    background: #FACD4914;
+    margin-left: 150px;
+    padding-top: 150px;
+}
+
+
+.newsletter-des .p-1{
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: #F85E9F;
+    margin-left: 350px;
+}
+
+.newsletter-des .p-2{
+    font-family: "circular std bold";
+    font-size: 55px;
+    font-weight: 700px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+input{
+    height: 96px;
+    width: 683px;
+    border: none;
+    border-radius: 30px;
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    margin: 0px 60px;
+}
+
+input :focus{
+    border: none;
+}
+
+.sub-btn{
+    height: 96px;
+    width: 235px;
+    border: none;
+    border-radius: 30px;
+    background-color: #5D50C6;
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: white;
+}
+
+.nl-imgs{
+    position: relative;
+}
+
+.nl-imgs .img-1{
+    position: absolute;
+    top: 450px;
+    left: 1247px;
+}
+
+.nl-imgs .img-2{
+    position: absolute;
+    top: -190px;
+    right: 970px;
+}
+
+
+footer{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-left: 130px;
+}
+
+
+footer .p{
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 450px;
+    color: #19182580;
+    line-height: 36px;
+    margin-bottom: 50px;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+ul{
+    list-style: none;
+    line-height: 50px;
+}
+
+li{
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #19182580;
+}
+
+.Selected{
+    font-family: "circular std bold";
+    font-size: 23px;
+    font-weight: 700px;
+    color: black;
+}
+
+
+
